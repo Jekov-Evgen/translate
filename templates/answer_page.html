@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/answer.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Answer</title>
+</head>
+<body>
+    <div class="container">
+        <p>Ваш текст:</p>
+        <p class="data">{{ data }}</p>
+        <p>Ваш перевод:</p>
+        <p class="data">{{ translation }}</p>
+    </div>
+</body>
+</html>
